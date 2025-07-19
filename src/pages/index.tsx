@@ -36,25 +36,25 @@ const aboutStats = [
 const projects = [
   {
     title: "Unqueue",
-    description: "E-commerce platform for selling digital products",
+    description: " BookWellCare - A Health Platform",
     image: "/assets/unqueue.webm",
     href: "https://unqueue.shop/",
   },
   {
     title: "InfiniteVPS",
-    description: "High performance VPS hosting solution",
+    description: "Robust Multi-Phase Key Management using Advanced Cryptographic Methods",
     image: "/assets/infinitevps.webm",
     href: "#",
   },
   {
     title: "TranslateBot",
-    description: "Powerful Multilingual Translation Bot for Discord",
+    description: "Flight Price Prediction",
     image: "/assets/translate_bot.webm",
     href: "https://translatebot.app/",
   },
   {
     title: "Wrona",
-    description: "Robotics-focused technology company",
+    description: "Integrated Smart Parking and Sustainable Wireless EV Charging",
     image: "/assets/wrona.jpeg",
     href: "https://www.wrona.com/",
   },
@@ -206,18 +206,10 @@ export default function Home() {
                   <br />
                 </span>
                 <span className="clash-grotesk text-gradient text-6xl 2xl:text-8xl">
-                  WendoJ.
+                  Akshat Gupta
                 </span>
               </h1>
-              <p
-                data-scroll
-                data-scroll-enable-touch-speed
-                data-scroll-speed=".06"
-                className="mt-1 max-w-lg tracking-tight text-muted-foreground 2xl:text-xl"
-              >
-                An experienced full-stack website developer with a passion for
-                crafting unique digital experiences.
-              </p>
+              
             </div>
             <span
               data-scroll
@@ -225,7 +217,7 @@ export default function Home() {
               data-scroll-speed=".06"
               className="flex flex-row items-center space-x-1.5 pt-6"
             >
-              <Link href="mailto:wendoj@proton.me" passHref>
+              <Link href="mailto:akshatgupta193@gmail.com" target="_blank" passHref>
                 <Button>
                   Get in touch <ChevronRight className="ml-1 h-4 w-4" />
                 </Button>
@@ -269,19 +261,10 @@ export default function Home() {
             className="my-14 flex max-w-6xl flex-col justify-start space-y-10"
           >
             <h2 className="py-16  pb-2 text-3xl font-light leading-normal tracking-tighter text-foreground xl:text-[40px]">
-              I&apos;m an experienced full-stack developer proficient in{" "}
-              <Link
-                href="https://create.t3.gg/"
-                target="_blank"
-                className="underline"
-              >
-                TypeScript, Tailwind, and Next.js
-              </Link>{" "}
-              since 2021. My experience spans from startups to mid-sized
-              companies, where I&apos;ve been instrumental in the entire product
-              design process; from ideation and wireframing, through
-              prototyping, to the delivery of the final product, all while
-              efficiently collaborating with cross-functional teams.
+              Third-year Computer Engineering student at Vishwakarma Institute of Technology ,Pune with a strong foundation in C++,java
+              web development and machine learning.Passionate about building efficient solutions and continously improving through real-world projects 
+              and hackathons.
+          
             </h2>
             <div className="grid grid-cols-2 gap-8 xl:grid-cols-3">
               {aboutStats.map((stat) => (
@@ -446,7 +429,7 @@ export default function Home() {
               I&apos;m currently available for freelance work and open to
               discussing new projects.
             </p>
-            <Link href="mailto:wendoj@proton.me" passHref>
+            <Link href="mailto:akshatgupta193@gmail.con" passHref>
               <Button className="mt-6">Get in touch</Button>
             </Link>
           </div>
